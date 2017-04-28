@@ -32,3 +32,9 @@ b) Run the swagger-mock
 `npm start`
 
 Note : Edit index.js to point to different .yaml file and change the port
+
+## Trigger REST
+a) Load the .yaml to http://http://editor.swagger.io/ to get the endpoint of petstore.
+
+b) Trigger REST to http://localhost:[port]/
+Note : Please add HTTP Header `api_key` with the value of `special-key`
